@@ -1,0 +1,24 @@
+
+These tools assist you in analysing the garbage collection (GC) log files produced by the JVM when using -verbosegc or -Xloggc:.. or equivalent. GC log file analysis is the most useful technique for identifying exactly what your JVM is doing in terms of GC, and also provides the most useful data for tuning the GC.
+
+(Year in brackets is when the tool/page was last updated)
+
+<UL>
+<LI><A HREF="https://github.com/linkedin/naarad">(2014) Framework for performance analysis of sharded & stateful services, includes GC log analysis capability</A>
+<LI><A HREF="http://www.jclarity.com/products/censum/">(2014) JClarity's Censum Garbage Collection log analyser</A>
+<LI><A HREF="https://github.com/chewiebug/GCViewer">(2014) GcViewer</A>
+<LI><A HREF="https://www.ibm.com/developerworks/community/groups/service/html/communityview?communityUuid=22d56091-3a7b-4497-b36e-634b51838e11">(2014) IBM PMAT Pattern Modeling and Analysis Tool for Java Garbage Collector</A>
+<LI><A HREF="http://www.ibm.com/developerworks/java/jdk/tools/gcmv/">(2014) IBM GCMV The GC and Memory Visualizer</A>
+<LI><A HREF="https://h20392.www2.hp.com/portal/swdepot/displayProductInfo.do?productNumber=HPJMETER">(2013) HPjmeter JVM performance analyser (includes the functionality from HPjtune which was the GC log analyser tool)</A>
+<LI><A HREF="http://code.google.com/p/verbosegcanalyzer/">(2012) verbosegcanalyzer</A>
+<LI><A HREF="http://code.google.com/a/eclipselabs.org/p/garbagecat/">(2011) garbagecat</A>
+<LI><A HREF="http://code.google.com/p/gclogviewer/">(2010) gclogviewer</A>
+<LI><A HREF="http://java.net/projects/printgcstats">(2010/2004) printgcstats (this may or may not be the PrintGCStats tool from 2004 which Sun created)</A>
+<LI><A HREF="http://sourceforge.net/projects/gcanalysis/">(2009) GCAnalysis</A>
+<LI><A HREF="http://java.net/projects/gchisto">(2008) gchisto</A>
+<LI><A HREF="https://bitbucket.org/markfink/testing-software/src/tip/gcview/">(2008) gcview</A>
+<LI><A HREF="http://www.tagtraum.com/gcviewer.html">(2008) the original GcViewer</A>
+<LI><A HREF="http://glezen.org/gca/">(2005) Garbage Collection Analysis (GCA)</A>
+<LI><A HREF="http://www.oracle.com/technetwork/articles/javase/gcportal-136937.html">(2004) GCPortal</A>
+</UL>
+
